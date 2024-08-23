@@ -11,15 +11,15 @@ public class Main {
         Cachorro cachorro = new Cachorro("Warwick", "Cachorro", 5, "Doméstico", 0.5f, 20.0f, 4);
         Elefante elefante = new Elefante("Sion", "Elefante", 10, "Selva", 3.0f, 5000.0f, 4);
 
-        processarAnimal(leao);
-        processarAnimal(cachorro);
-        processarAnimal(elefante);
-        processarAnimal(gato);
-        processarAnimal(peixe);
-        processarAnimal(pombo);
+        criarAnimal(leao);
+        criarAnimal(cachorro);
+        criarAnimal(elefante);
+        criarAnimal(gato);
+        criarAnimal(peixe);
+        criarAnimal(pombo);
     }
 
-    private static void processarAnimal(AnimalAB animal) {
+    private static void criarAnimal(AnimalAB animal) {
         animal.comer();
         animal.mover();
         if (animal instanceof Peixe) {

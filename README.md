@@ -28,14 +28,10 @@ Praticar princípios avançados de POO como abstração, encapsulamento, heranç
     ```
     cd lista-poo-avancado
 
-3. **Compile o projeto usando Maven**:
-    ```
-    mvn clean install
-
-4. **Execute o programa**:
-    ```
-    mvn exec:java -Dexec.mainClass="src.Main"
-    ```
+3. **Executando o programa:**
+   ```
+   1. Entre na classe "Main" dentro do package "src"
+   2. Pressione SHIFT+F10 
 
 ## Estrutura de Diretórios
 
